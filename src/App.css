@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  background: url(sky.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .App-logo {
@@ -18,7 +28,7 @@
 }
 
 .App-link {
-  color: #09d3ac;
+  color: #61dafb;
 }
 
 .card {
@@ -29,9 +39,44 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin: 1em;
   user-select: none;
+  background:#c4c4fb;
+  color: white;
 }
 
 .activeCard {     
   color: red;     
   background: pink; 
 }
+
+.button{
+  background-color: rgb(87, 61, 235); /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.toMarginTop{
+  margin-top: 30px;
+}
+
+.font{
+  margin-top: 10px;
+  font-size: 40px;
+  color: rgb(27, 5, 151);
+}
+
+.font2{
+  margin-top: 30px;
+  font-size: 30px;
+  color: rgb(111, 0, 255);
+}
+
+
+
